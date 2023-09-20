@@ -1,0 +1,47 @@
+#program1
+a = float(input("Enter the first number: "))
+b = float(input("Enter the second number: "))
+
+if a > b:
+    print("a is greater than b.")
+elif a < b:
+    print("a is smaller than b.")
+else:
+    print("a is equal to b.")
+
+OUTPUT : 
+Enter the first number: 32
+Enter the second number: 45
+a is smaller than b.
+#PROGRAM : 2
+user_input = input("Enter a month (e.g., January): ").capitalize()
+
+if user_input in ["September", "October", "November"]:
+    print("The season is Autumn.")
+elif user_input in ["December", "January", "February"]:
+    print("The season is Winter.")
+elif user_input in ["March", "April", "May"]:
+    print("The season is Spring.")
+elif user_input in ["June", "July", "August"]:
+    print("The season is Summer.")
+else:
+    print("Invalid input. Please enter a valid month.")
+
+OUTPUT : 
+Enter a month (e.g., January): August                            
+The season is Summer.
+#PROGRAM :3 
+my_age = int(input("Enter your age: "))
+your_age = int(input("Enter my age: "))
+
+if my_age > your_age:
+    print("I am older.")
+elif my_age < your_age:
+    print("You are older.")
+else:
+    print("We are the same age.")
+
+OUTPUT :
+Enter your age: 32
+Enter my age: 23
+I am older.
